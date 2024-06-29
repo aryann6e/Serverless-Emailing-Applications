@@ -43,45 +43,48 @@ This project automates the process of sending personalized emails using AWS serv
 
    A trigger function in Lambda ensures emails are sent at scheduled times.
 # Prerequisites
-AWS Account
-GitHub Account
-AWS CLI configured
-Necessary permissions to create and manage AWS services
+* AWS Account
+* GitHub Account
+* AWS CLI configured
+* Necessary permissions to create and manage AWS services
 # Setup Instructions
 Clone the GitHub Repository:
 
-bash
-Copy code
-git clone <repository-url>
-cd <repository-directory>
-Setup S3 Bucket:
+git  clone 
 
-Create an S3 bucket to store email templates and contact files.
-Upload the email template and contact file to the S3 bucket.
-Create AWS Lambda Function:
+cd repository-directory
 
-Create a Lambda function to handle the email sending logic.
-Configure the function to trigger on S3 events (object creation) and on a scheduled basis.
-Configure AWS SES:
+# Setup S3 Bucket:
 
-Verify your email address with SES.
-Configure SES to allow sending emails.
-Setup AWS CodePipeline:
+* Create an S3 bucket to store email templates and contact files.
+* Upload the email template and contact file to the S3 bucket.
+* 
+#  Create AWS Lambda Function:
 
-Create a pipeline in AWS CodePipeline.
-Connect the pipeline to your GitHub repository and S3 bucket.
+* Create a Lambda function to handle the email sending logic.
+* Configure the function to trigger on S3 events (object creation) and on a scheduled basis.
+# Configure AWS SES:
+
+* Verify your email address with SES.
+* Configure SES to allow sending emails.
+# Setup AWS CodePipeline:
+
+* Create a pipeline in AWS CodePipeline.
+* Connect the pipeline to your GitHub repository and S3 bucket.
 # CodePipeline Configuration
 
-Source Stage:
+1. Source Stage:
 
 Add a source stage to connect to the GitHub repository.
-Deploy Stage:
+
+2. Deploy Stage:
 
 Add a deploy stage to sync changes with the S3 bucket.
+
 # Lambda Function
 The Lambda function script (e.g., send_email.py) should:
 
-Retrieve the email template and contact file from S3.
-Extract names and email addresses from the contact file.
-Personalize the email template.
-Send the email using AWS SES.
+1. Retrieve the email template and contact file from S3.
+2. Extract names and email addresses from the contact file.
+3. Personalize the email template.
+4. Send the email using AWS SES.
