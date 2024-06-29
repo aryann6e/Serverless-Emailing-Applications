@@ -88,3 +88,18 @@ The Lambda function script (e.g., send_email.py) should:
 2. Extract names and email addresses from the contact file.
 3. Personalize the email template.
 4. Send the email using AWS SES.
+
+![ddd](https://github.com/aryann6e/Serverless-Emailing-Applications/blob/main/Screenshot%202024-06-28%20001141.png)
+![dddd](https://github.com/aryann6e/Serverless-Emailing-Applications/blob/main/Screenshot%202024-06-28%20003412.png)
+![ggg](https://github.com/aryann6e/Serverless-Emailing-Applications/blob/main/Screenshot%202024-06-28%20003704.png)
+![ggg](https://github.com/aryann6e/Serverless-Emailing-Applications/blob/main/Screenshot%202024-06-28%20003820.png)
+![ggg](https://github.com/aryann6e/Serverless-Emailing-Applications/blob/main/Screenshot%202024-06-28%20004409.png)
+![ggg](https://github.com/aryann6e/Serverless-Emailing-Applications/blob/main/Screenshot%202024-06-28%20004948.png)
+![ggg](https://github.com/aryann6e/Serverless-Emailing-Applications/blob/main/Screenshot%202024-06-28%20012435.png)
+![ggg](https://github.com/aryann6e/Serverless-Emailing-Applications/blob/main/Screenshot%202024-06-28%20013926.png)
+![ggg](https://github.com/aryann6e/Serverless-Emailing-Applications/blob/main/Screenshot%202024-06-28%20014050.png)
+![ggg](https://github.com/aryann6e/Serverless-Emailing-Applications/blob/main/Screenshot%202024-06-28%20022020.png)
+![ggg](https://github.com/aryann6e/Serverless-Emailing-Applications/blob/main/Screenshot%202024-06-28%20024120.png)
+![ggg](https://github.com/aryann6e/Serverless-Emailing-Applications/blob/main/Screenshot%202024-06-28%20024142.png)
+![ggg](https://github.com/aryann6e/Serverless-Emailing-Applications/blob/main/Screenshot%202024-06-28%20024515.png)
+![ggg](https://github.com/aryann6e/Serverless-Emailing-Applications/blob/main/Screenshot%202024-06-28%20233555.png)
